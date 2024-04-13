@@ -157,7 +157,7 @@ body{
     position: fixed;
     left: 250px;
     top: 60px;
-    width: calc(100% - -250px);
+    width: calc(100% - 250px);
     height: 60px;
     background: #fff;
     border-top: 1px solid #dbdbdb;
@@ -165,6 +165,7 @@ body{
     padding: 0 20px;
     display: flex;
     align-items: center;
+    overflow-x: auto;
 }
 
 .filter-options{
@@ -232,4 +233,47 @@ body{
     font-size: 14px;
     margin: 2px 0;
     color: #979797;
+}
+
+.small-sidebar{
+    width: 50px;
+}
+
+.small-sidebar a p{
+    display: none;
+}
+
+@media screen and (max-width:700px){
+    .video-container{
+    grid-template-columns: repeat(1,100%);
+    display: block;
+    margin-left: 0;
+    margin-top: 120px;
+    width: 100%;
+
+    }
+    .filters{
+        width: 100%;
+        position: fixed;
+        top: 60px;
+        left: 0;
+    }
+    .navbar{
+        /* display: none; */
+    }
+    .sidebar{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .userOptions{
+        display: none;
+    }
+    .toggle-Btn{
+        display: none;
+    }
+    .searchbox{
+        width: 90%;
+    }
 }

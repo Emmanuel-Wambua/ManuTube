@@ -59,3 +59,31 @@ searchBtn.addEventListener('click', () => {
         location.href = searchLink + searchInput.value;
     }
 })
+
+const liverBtn = document.getElementById('livBtn');
+
+liverBtn.addEventListener('click', () => {
+    location.href = "https://www.youtube.com/results?search_query=Liverpool"
+})
+const animBtn = document.getElementById('44Btn');
+
+animBtn.addEventListener('click', () => {
+    location.href = "https://www.youtube.com/results?search_query=44200ns"
+})
+const broBtn = document.getElementById('broBtn');
+
+broBtn.addEventListener('click', () => {
+    location.href = "https://www.youtube.com/results?search_query=bro code"
+})
+const sidBtn = document.getElementById('sidBtn');
+
+sidBtn.addEventListener('click', () => {
+    location.href = "https://www.youtube.com/results?search_query=sidemen"
+})
+// var menuIcon = document.querySelector(".toggle-Btn");
+// var sideBar = document.querySelector(".sidebar");
+
+// menuIcon.onclick = function(){
+//     sideBar.classList.toggle("small-sidebar")
+// }
+
