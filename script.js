@@ -80,10 +80,22 @@ const sidBtn = document.getElementById('sidBtn');
 sidBtn.addEventListener('click', () => {
     location.href = "https://www.youtube.com/results?search_query=sidemen"
 })
-// var menuIcon = document.querySelector(".toggle-Btn");
-// var sideBar = document.querySelector(".sidebar");
 
-// menuIcon.onclick = function(){
-//     sideBar.classList.toggle("small-sidebar")
-// }
+
+var menuIcon = document.querySelector(".toggle-Btn");
+var sideBar = document.querySelector(".sidebar");
+var filters = document.querySelector(".filters")
+var vidContainer = document.querySelector(".video-container")
+var num = 0;
+
+menuIcon.onclick = function smallenside(){
+    if(num == 0){
+        sideBar.style.display = "block"
+        num = 1
+    }
+    else{
+        sideBar.style.display = "none"
+        num = 0
+    }
+}
 
