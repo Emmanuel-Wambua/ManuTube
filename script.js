@@ -81,6 +81,24 @@ sidBtn.addEventListener('click', () => {
     location.href = "https://www.youtube.com/results?search_query=sidemen"
 })
 
+const BeastBtn = document.getElementById('mrBtn')
+
+BeastBtn.addEventListener('click', () => {
+    location.href = "https://www.youtube.com/results?search_query=mr Beast"
+})
+
+const jsBtn = document.getElementById('jsBtn')
+
+jsBtn.addEventListener('click', () => {
+    location.href = "https://www.youtube.com/results?search_query=JavaScript"
+})
+
+const NolanBtn = document.getElementById('nolanBtn')
+
+NolanBtn.addEventListener('click', () => {
+    location.href = "https://www.youtube.com/results?search_query=Christopher Nolan"
+})
+
 
 var menuIcon = document.querySelector(".toggle-Btn");
 var sideBar = document.querySelector(".sidebar");
